@@ -29,7 +29,7 @@ Say what the step will be
 
 3) Open a Console or Terminal (In my case Powershell)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png?raw=true)
 
 4) Build Jar for ChallengeRestApi-master using Maven
 	3.1) Enter in ChallengeRestApi-master directory
