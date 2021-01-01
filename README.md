@@ -11,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-1) [Java 1.8](https://www.java.com/es/) - The web framework used
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+1) [Java 1.8](https://www.java.com) - The web framework used
 2) [Maven](https://maven.apache.org/)
 3) [Docker](https://www.docker.com/)
 ```
