@@ -35,7 +35,7 @@ Say what the step will be
 
 5. Build the Jar File for the Dijkstra Shortest City Path Rest Microservice (Enter in **Challenge-master** directory and launch **./mvnw clean install** 
 
-	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
+	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/Challenge-master.png)
 
 6. Enter in the ChallengeCompleteDocker-master directory 
 
