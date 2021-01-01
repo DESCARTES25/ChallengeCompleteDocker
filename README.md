@@ -29,13 +29,13 @@ Say what the step will be
 
 	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
 
-4. Build Jar for ChallengeRestApi-master using Maven
-⋅⋅4.1. Enter in ChallengeRestApi-master directory
-⋅⋅4.2. To build the Jar File for the Api Rest Microservice Execute ###./mvnw clean install 
+4. Build the Jar File for the Api Rest Microservice (Enter in **ChallengeRestApi-master** directory and launch **./mvnw clean install** 
 
-5. Build Jar for ChallengeRestApi-master using Maven
-	3.1) Enter in ChallengeRestApi-master directory
-	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
+	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
+
+5. Build the Jar File for the Dijkstra Shortest City Path Rest Microservice (Enter in **Challenge-master** directory and launch **./mvnw clean install** 
+
+	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
 
 6. Enter in the ChallengeCompleteDocker-master directory 
 
