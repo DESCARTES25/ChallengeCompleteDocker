@@ -10,11 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-1) [Java 1.8](https://www.java.com) - The web framework used
-2) [Maven](https://maven.apache.org/)
-3) [Docker](https://www.docker.com/)
+1) [Java 1.8](https://www.java.com) - Java Version to compile and build the Microservices
+2) [Maven](https://maven.apache.org/) - Maven to Build the Jars 
+3) [Docker](https://www.docker.com/) - Deploy the containers for Postgres and Spring Boot
 
 ### Installing
 
@@ -22,14 +20,14 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
+
 1) Download the repository (https://github.com/DESCARTES25/ChallengeCompleteDocker)
 
 2) Unzip the content in your local machine
 
 3) Open a Console or Terminal (In my case Powershell)
 
-![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
+	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
 
 4) Build Jar for ChallengeRestApi-master using Maven
 	3.1) Enter in ChallengeRestApi-master directory
@@ -40,7 +38,7 @@ Say what the step will be
 	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
 
 6) Enter in the ChallengeCompleteDocker-master directory 
-```
+
 
 And repeat
 
