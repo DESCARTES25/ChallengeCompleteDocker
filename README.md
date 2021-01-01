@@ -11,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+1) Java 1.8 https://www.java.com/es/
+2) Maven https://maven.apache.org/
+3) Docker https://www.docker.com/
 ```
 
 ### Installing
@@ -21,7 +23,23 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+1) Download the repository https://github.com/DESCARTES25/ChallengeCompleteDocker
+
+2) Unzip the content in your local machine
+
+3) Open a Console or Terminal (In my case Powershell)
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+4) Build Jar for ChallengeRestApi-master using Maven
+	3.1) Enter in ChallengeRestApi-master directory
+	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
+
+5) Build Jar for ChallengeRestApi-master using Maven
+	3.1) Enter in ChallengeRestApi-master directory
+	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
+
+6) Enter in the ChallengeCompleteDocker-master directory 
 ```
 
 And repeat
