@@ -30,8 +30,8 @@ Say what the step will be
 	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
 
 4) Build Jar for ChallengeRestApi-master using Maven
-	3.1) Enter in ChallengeRestApi-master directory
-	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
+	⋅⋅4.1. Enter in ChallengeRestApi-master directory
+	⋅⋅4.2. To build the Jar File for the Api Rest Microservice Execute ###./mvnw clean install 
 
 5) Build Jar for ChallengeRestApi-master using Maven
 	3.1) Enter in ChallengeRestApi-master directory
