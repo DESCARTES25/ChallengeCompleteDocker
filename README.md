@@ -39,7 +39,7 @@ Say what the step will be
 
 6. Return to the Main directory **ChallengeCompleteDocker-master** and execute **docker-compose build** 
 
-7. Return to the Main directory **ChallengeCompleteDocker-master** and execute **docker-compose build** 
+7. Return to the Main directory **ChallengeCompleteDocker-master** and execute **docker-compose up** 
 
 And repeat
 
