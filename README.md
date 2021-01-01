@@ -12,7 +12,7 @@ What things you need to install the software and how to install them
 
 ```
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 1) [Java 1.8](https://www.java.com) - The web framework used
 2) [Maven](https://maven.apache.org/)
 3) [Docker](https://www.docker.com/)
