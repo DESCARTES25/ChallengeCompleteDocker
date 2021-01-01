@@ -11,9 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-1) Java 1.8 https://www.java.com/es/
-2) Maven https://maven.apache.org/
-3) Docker https://www.docker.com/
+1) Java 1.8 (https://www.java.com/es/)
+2) Maven (https://maven.apache.org/)
+3) Docker (https://www.docker.com/)
 ```
 
 ### Installing
@@ -23,7 +23,7 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-1) Download the repository https://github.com/DESCARTES25/ChallengeCompleteDocker
+1) Download the repository (https://github.com/DESCARTES25/ChallengeCompleteDocker)
 
 2) Unzip the content in your local machine
 
