@@ -21,23 +21,23 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 
-1) Download the repository (https://github.com/DESCARTES25/ChallengeCompleteDocker)
+1. Download the repository (https://github.com/DESCARTES25/ChallengeCompleteDocker)
 
-2) Unzip the content in your local machine
+2. Unzip the content in your local machine
 
-3) Open a Console or Terminal (In my case Powershell)
+3. Open a Console or Terminal (In my case Powershell)
 
 	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/powershell.png)
 
-4) Build Jar for ChallengeRestApi-master using Maven
-	⋅⋅4.1. Enter in ChallengeRestApi-master directory
-	⋅⋅4.2. To build the Jar File for the Api Rest Microservice Execute ###./mvnw clean install 
+4. Build Jar for ChallengeRestApi-master using Maven
+⋅⋅4.1. Enter in ChallengeRestApi-master directory
+⋅⋅4.2. To build the Jar File for the Api Rest Microservice Execute ###./mvnw clean install 
 
-5) Build Jar for ChallengeRestApi-master using Maven
+5. Build Jar for ChallengeRestApi-master using Maven
 	3.1) Enter in ChallengeRestApi-master directory
 	3.2) Execute ./mvnw clean install in order to build the Jar File for the Api Rest Microservice
 
-6) Enter in the ChallengeCompleteDocker-master directory 
+6. Enter in the ChallengeCompleteDocker-master directory 
 
 
 And repeat
