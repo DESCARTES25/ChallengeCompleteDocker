@@ -309,7 +309,40 @@ Later, we can test the **Shortest Path Rest Service** which is published in **lo
 	    }
 	]
 	'''
+*Shortest Connection between Madrid and Tokyo:*
 
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_connection_madrid_tokyo.png) 
+
+	'''
+	[
+	    {
+		"id": 1,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"departure": "00:00:00",
+		"arrival": "02:00:00"
+	    },
+	    {
+		"id": 5,
+		"origin": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"destination": {
+		    "id": 4,
+		    "name": "Tokyo"
+		},
+		"departure": "02:00:00",
+		"arrival": "12:00:00"
+	    }
+	]
+	'''
 
 
 
