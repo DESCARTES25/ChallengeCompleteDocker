@@ -80,7 +80,104 @@ First, we can test the **Rest Api + Postgres** which is published in **localhost
 
 	'''
 
- 
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_itineraries.png) 
+
+	'''
+	[
+	    {
+		"id": 1,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"departure": "00:00:00",
+		"arrival": "02:00:00"
+	    },
+	    {
+		"id": 2,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"departure": "00:00:00",
+		"arrival": "01:00:00"
+	    },
+	    {
+		"id": 3,
+		"origin": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"destination": {
+		    "id": 2,
+		    "name": "London"
+		},
+		"departure": "01:00:00",
+		"arrival": "04:00:00"
+	    },
+	    {
+		"id": 4,
+		"origin": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"destination": {
+		    "id": 6,
+		    "name": "New York"
+		},
+		"departure": "01:00:00",
+		"arrival": "08:00:00"
+	    },
+	    {
+		"id": 5,
+		"origin": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"destination": {
+		    "id": 4,
+		    "name": "Tokyo"
+		},
+		"departure": "02:00:00",
+		"arrival": "12:00:00"
+	    },
+	    {
+		"id": 6,
+		"origin": {
+		    "id": 2,
+		    "name": "London"
+		},
+		"destination": {
+		    "id": 4,
+		    "name": "Tokyo"
+		},
+		"departure": "04:00:00",
+		"arrival": "14:00:00"
+	    },
+	    {
+		"id": 7,
+		"origin": {
+		    "id": 6,
+		    "name": "New York"
+		},
+		"destination": {
+		    "id": 4,
+		    "name": "Tokyo"
+		},
+		"departure": "08:00:00",
+		"arrival": "16:00:00"
+	    }
+	]
+
+	'''
 
 Later, we can test the **Shortest Path Rest Service** which is published in **localhost:8080**. 
 
