@@ -181,6 +181,8 @@ First, we can test the **Rest Api + Postgres** which is published in **localhost
 
 Later, we can test the **Shortest Path Rest Service** which is published in **localhost:8080**. 
 
+*Shortest Time between Madrid and Paris:*
+
 ![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_paris.png) 
 	
 	'''
@@ -201,6 +203,77 @@ Later, we can test the **Shortest Path Rest Service** which is published in **lo
 	]
 	'''
 
+*Shortest Time between Madrid and New York:*
+
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_paris.png) 
+
+	'''
+	
+	[
+	    {
+		"id": 2,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"departure": "00:00:00",
+		"arrival": "01:00:00"
+	    },
+	    {
+		"id": 4,
+		"origin": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"destination": {
+		    "id": 6,
+		    "name": "New York"
+		},
+		"departure": "01:00:00",
+		"arrival": "08:00:00"
+	    }
+	]
+	
+	'''
+*Shortest Time between Madrid and Tokyo:*
+
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_tokyo.png) 
+
+
+	'''
+	[
+	    {
+		"id": 1,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"departure": "00:00:00",
+		"arrival": "02:00:00"
+	    },
+	    {
+		"id": 5,
+		"origin": {
+		    "id": 3,
+		    "name": "Berlin"
+		},
+		"destination": {
+		    "id": 4,
+		    "name": "Tokyo"
+		},
+		"departure": "02:00:00",
+		"arrival": "12:00:00"
+	    }
+	]
+	'''
 
 ## Deployment
 
