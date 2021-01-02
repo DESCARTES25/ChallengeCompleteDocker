@@ -205,7 +205,7 @@ Later, we can test the **Shortest Path Rest Service** which is published in **lo
 
 *Shortest Time between Madrid and New York:*
 
-![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_paris.png) 
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_newyork.png) 
 
 	'''
 	
