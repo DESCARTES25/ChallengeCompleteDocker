@@ -45,11 +45,44 @@ Say what the step will be
 
 Once the containers are running, the Postgres Database is filled with cities and itineraries, so we can test the service using these commands:
 
-First, we can test the **Rest Api + Postgres** which is published in **localhost:8082**. 
+First, we can test the **Rest Api + Postgres** which is published in **localhost:8082**. (Using Postman)
 
+	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/Challenge-master.png)
+
+
+	'''
+	[
+	    {
+		"id": 1,
+		"name": "Madrid"
+	    },
+	    {
+		"id": 2,
+		"name": "London"
+	    },
+	    {
+		"id": 3,
+		"name": "Berlin"
+	    },
+	    {
+		"id": 4,
+		"name": "Tokyo"
+	    },
+	    {
+		"id": 5,
+		"name": "Paris"
+	    },
+	    {
+		"id": 6,
+		"name": "New York"
+	    }
+	]
+
+	'''
+
+ 
 
 Later, we can test the **Shortest Path Rest Service** which is published in **localhost:8080**. 
-
 
 
 ## Deployment
