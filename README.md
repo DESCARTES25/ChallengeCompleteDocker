@@ -43,10 +43,12 @@ Say what the step will be
 
 ## Testing the Services
 
-Once the containers are running, we can test the service using these commands:
+Once the containers are running, the Postgres Database is filled with cities and itineraries, so we can test the service using these commands:
+
+First, we can test the **Rest Api + Postgres** which is published in **localhost:8082**. 
 
 
-
+Later, we can test the **Shortest Path Rest Service** which is published in **localhost:8080**. 
 
 
 
