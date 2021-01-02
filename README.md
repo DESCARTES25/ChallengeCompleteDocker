@@ -181,23 +181,25 @@ First, we can test the **Rest Api + Postgres** which is published in **localhost
 
 Later, we can test the **Shortest Path Rest Service** which is published in **localhost:8080**. 
 
-"""
-[
-    {
-        "id": 2,
-        "origin": {
-            "id": 1,
-            "name": "Madrid"
-        },
-        "destination": {
-            "id": 5,
-            "name": "Paris"
-        },
-        "departure": "00:00:00",
-        "arrival": "01:00:00"
-    }
-]
-"""
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_shortest_madrid_paris.png) 
+	
+	'''
+	[
+	    {
+		"id": 2,
+		"origin": {
+		    "id": 1,
+		    "name": "Madrid"
+		},
+		"destination": {
+		    "id": 5,
+		    "name": "Paris"
+		},
+		"departure": "00:00:00",
+		"arrival": "01:00:00"
+	    }
+	]
+	'''
 
 
 ## Deployment
