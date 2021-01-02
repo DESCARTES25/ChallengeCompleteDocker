@@ -47,7 +47,7 @@ Once the containers are running, the Postgres Database is filled with cities and
 
 First, we can test the **Rest Api + Postgres** which is published in **localhost:8082**. (Using Postman)
 
-	![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/Challenge-master.png)
+![alt text](https://github.com/DESCARTES25/ChallengeCompleteDocker/blob/master/postman_get_cities.png)
 
 
 	'''
